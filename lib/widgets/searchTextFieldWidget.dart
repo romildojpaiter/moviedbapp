@@ -26,18 +26,16 @@ class SearchTextFieldWidget extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Expanded(
-            child: TextField(
-              onChanged: _controller.onChanged,
-              decoration: const InputDecoration(
-                label: Text('Search'),
-                prefixIcon: Icon(Icons.search),
-                fillColor: Colors.white30,
-                focusColor: Colors.white30,
-                hoverColor: Colors.white30,
-              ),
-              cursorColor: Colors.white30,
+          TextField(
+            onChanged: _controller.onChanged,
+            decoration: const InputDecoration(
+              label: Text('Search'),
+              prefixIcon: Icon(Icons.search),
+              fillColor: Colors.white30,
+              focusColor: Colors.white30,
+              hoverColor: Colors.white30,
             ),
+            cursorColor: Colors.white30,
           ),
         ],
       ),

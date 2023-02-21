@@ -8,6 +8,6 @@ class MoviesRespositoryDecorator implements MoviesRepository {
 
   @override
   Future<Movies> getMovies() async {
-    throw await _movieRepository.getMovies();
+    return await _movieRepository.getMovies();
   }
 }

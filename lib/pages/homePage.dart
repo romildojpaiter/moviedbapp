@@ -19,7 +19,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final MovieController _controller = MovieController(
     MoviesRespositoryCachedDecorator(
-      MoviesRepositoryImpl(DioServiceImpl()),
+      MoviesRepositoryImpl(
+        DioServiceImpl(),
+      ),
     ),
   );
 
