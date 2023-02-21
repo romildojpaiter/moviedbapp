@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## Imagens
+
+![Screenshot](resources/home-page.png)
+
+![Screenshot](resources/detail-page.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
